@@ -7,4 +7,4 @@ let db = require('./firebase-db');
 
 db.ref('hello').once('value', snapshot => {
   console.log('The value is', snapshot.val());
-});
+}, error => console.log('Error ', error));

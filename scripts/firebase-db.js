@@ -7,5 +7,6 @@ let app = firebase.initializeApp({
 });
 
 let db = app.database();
+// firebase.database.enableLogging(true);
 
 module.exports = db;
