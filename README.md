@@ -17,3 +17,4 @@ Four test scripts have been provided to illustrate the issues in the post. See e
  - `scripts/once.js`
  - `scripts/on-with-set.js`
  - `scripts/once-with-set.js`
+ - `scripts/on-with-interval-set.js`
